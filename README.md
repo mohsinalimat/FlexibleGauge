@@ -3,10 +3,10 @@
 With this animated gauge you will be able to create flexible gauges with or without images in or out of the gauge circle.
 
 
-![example](https://s8.postimg.org/yowsqjqbp/ezgif.com-video-to-gif.gif)
+![screenshot](https://s8.postimg.org/6tf1nalb9/Simulator_Screen_Shot_-_i_Phone_8_Plus_-_2017-11-23_at_12.02.10.png)
 
+![animated](https://s8.postimg.org/yowsqjqbp/ezgif.com-video-to-gif.gif)
 
-![example2](https://s8.postimg.org/dynynn4kl/Screen_Shot_2017-11-23_at_08.55.33.png)
 
 # Build Requirements
 
