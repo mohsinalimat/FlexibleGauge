@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FlexibleGauge_Example' do
+  pod 'FlexibleGauge', :path => '../'
+
+  target 'FlexibleGauge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

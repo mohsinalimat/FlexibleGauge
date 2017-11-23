@@ -1,0 +1,22 @@
+{
+  "name": "FlexibleGauge",
+  "version": "0.1.0",
+  "summary": "A short description of FlexibleGauge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ebrugungorist@gmail.com/FlexibleGauge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ebrugungorist@gmail.com": "ebrugungorist@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ebrugungorist@gmail.com/FlexibleGauge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlexibleGauge/Classes/**/*"
+}

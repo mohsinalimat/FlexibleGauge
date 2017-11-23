@@ -1,0 +1,16 @@
+PODS:
+  - FlexibleGauge (0.1.0)
+
+DEPENDENCIES:
+  - FlexibleGauge (from `../`)
+
+EXTERNAL SOURCES:
+  FlexibleGauge:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FlexibleGauge: fbab7c9c99e1011d710572dce84f03775fe6c09d
+
+PODFILE CHECKSUM: 392a5eac9f1ee16c4d5528dcd4ad60be03ec1b06
+
+COCOAPODS: 1.3.1
