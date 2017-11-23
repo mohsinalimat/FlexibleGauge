@@ -11,8 +11,6 @@
 		28FA9A183500059F7812867F2C05103A /* Pods-FlexibleGauge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE64F4BC6A123602D8A7678A7ED83D5A /* Pods-FlexibleGauge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EDE689D6F18CE20AEBC57C712873068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6B5D1A2649BF670B521C8A211853C6C6 /* Pods-FlexibleGauge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D50999EE4F8A45421C2CE4DFD7EE46 /* Pods-FlexibleGauge_Tests-dummy.m */; };
-		7DF5754E1FC6BBD400606F80 /* FlexibleGauge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF5754C1FC6BBD400606F80 /* FlexibleGauge.h */; };
-		7DF5754F1FC6BBD400606F80 /* FlexibleGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF5754D1FC6BBD400606F80 /* FlexibleGauge.m */; };
 		99EB2F40CD98A1B0ED3F9DE7C9BF9686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B0F2DF09726261A034A5F37C5E5094F4 /* Pods-FlexibleGauge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DB9C72D0D883A17373491D3DAF09D1 /* Pods-FlexibleGauge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2314E12F7C52ED247E27C8694A80B7C /* FlexibleGauge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 605C04DAA9E5A3821251ABE418B14032 /* FlexibleGauge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,8 +44,6 @@
 		6E8B51C2CEF31A15B958885CD6A6FCA0 /* Pods-FlexibleGauge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlexibleGauge_Example.modulemap"; sourceTree = "<group>"; };
 		7B5EDD290783FD51B890D60C73F06712 /* Pods-FlexibleGauge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleGauge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7CD13AD1CD6E70BD7FE2D7CA6E960634 /* Pods-FlexibleGauge_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleGauge_Example-resources.sh"; sourceTree = "<group>"; };
-		7DF5754C1FC6BBD400606F80 /* FlexibleGauge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlexibleGauge.h; path = FlexibleGauge/Classes/FlexibleGauge.h; sourceTree = "<group>"; };
-		7DF5754D1FC6BBD400606F80 /* FlexibleGauge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlexibleGauge.m; path = FlexibleGauge/Classes/FlexibleGauge.m; sourceTree = "<group>"; };
 		84557A02E6E365F785CE08E871EB493D /* Pods-FlexibleGauge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleGauge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A4B60A4C9B30C29D0113F9724945B96 /* Pods-FlexibleGauge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleGauge_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,8 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				316986BC05DC7F4069A2786B96BAB4BF /* Support Files */,
-				7DF5754C1FC6BBD400606F80 /* FlexibleGauge.h */,
-				7DF5754D1FC6BBD400606F80 /* FlexibleGauge.m */,
 			);
 			name = FlexibleGauge;
 			path = ../..;
@@ -225,7 +219,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2314E12F7C52ED247E27C8694A80B7C /* FlexibleGauge-umbrella.h in Headers */,
-				7DF5754E1FC6BBD400606F80 /* FlexibleGauge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF5754F1FC6BBD400606F80 /* FlexibleGauge.m in Sources */,
 				EFABAE056064E85BA85CED560A5A8548 /* FlexibleGauge-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
