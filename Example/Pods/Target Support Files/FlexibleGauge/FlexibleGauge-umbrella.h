@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "FlexibleGauge.h"
 
 FOUNDATION_EXPORT double FlexibleGaugeVersionNumber;
 FOUNDATION_EXPORT const unsigned char FlexibleGaugeVersionString[];

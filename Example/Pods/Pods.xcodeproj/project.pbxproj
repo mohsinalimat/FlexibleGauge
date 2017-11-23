@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06FE8C15BA2884BE464408BB0ACC7788 /* FlexibleGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = C80DF34145BFFEE59F2ECB7A50BFD211 /* FlexibleGauge.m */; };
 		0E02A699ED5092F1CBF952B5B682EFDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		28FA9A183500059F7812867F2C05103A /* Pods-FlexibleGauge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE64F4BC6A123602D8A7678A7ED83D5A /* Pods-FlexibleGauge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8CDAAEEE7F6AE2058F7FBF0C9B8AA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		460C6B06FB80A16903846342DFC99679 /* FlexibleGauge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BF6B1F2D75DFFBAE08A10C2E04E672 /* FlexibleGauge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EDE689D6F18CE20AEBC57C712873068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		51CB570D71914B092081F7020B98B192 /* FlexibleGauge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4561CF1D7BBCA1C9E1C72509F39EB59A /* FlexibleGauge-dummy.m */; };
 		6B5D1A2649BF670B521C8A211853C6C6 /* Pods-FlexibleGauge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D50999EE4F8A45421C2CE4DFD7EE46 /* Pods-FlexibleGauge_Tests-dummy.m */; };
-		7DF575521FC6C0C600606F80 /* FlexibleGauge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF575501FC6C0C600606F80 /* FlexibleGauge.h */; };
-		7DF575531FC6C0C600606F80 /* FlexibleGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF575511FC6C0C600606F80 /* FlexibleGauge.m */; };
-		99EB2F40CD98A1B0ED3F9DE7C9BF9686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7FF12A07B64B27A78073C24D45F7B524 /* FlexibleGauge.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB0FB3DDA8A2DABBCB7FACE7D8B5A6B /* FlexibleGauge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0F2DF09726261A034A5F37C5E5094F4 /* Pods-FlexibleGauge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DB9C72D0D883A17373491D3DAF09D1 /* Pods-FlexibleGauge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2314E12F7C52ED247E27C8694A80B7C /* FlexibleGauge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 605C04DAA9E5A3821251ABE418B14032 /* FlexibleGauge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC8602E5B9833AB4B1F5C9F8A92532E /* Pods-FlexibleGauge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFD2FBE2D95B22BB115B2C1AB55B3C /* Pods-FlexibleGauge_Example-dummy.m */; };
-		EFABAE056064E85BA85CED560A5A8548 /* FlexibleGauge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC0210F930D18662125F33648A8458 /* FlexibleGauge-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14CF9F0294AFAD25D82EFB4EF0136EA7;
+			remoteGlobalIDString = 90C96E884A28809F5BED8EDAAE624CFD;
 			remoteInfo = FlexibleGauge;
 		};
 /* End PBXContainerItemProxy section */
@@ -33,35 +33,35 @@
 /* Begin PBXFileReference section */
 		16200D5C456C2BFE3249E4721510B533 /* Pods-FlexibleGauge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleGauge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		368FC08AE0490B7DD1C9B618CE94FEFF /* Pods-FlexibleGauge_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleGauge_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4561CF1D7BBCA1C9E1C72509F39EB59A /* FlexibleGauge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleGauge-dummy.m"; sourceTree = "<group>"; };
+		5168AAC611B93595BA399DD73E823DF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576ECE20F5762725B06C2151668FFC77 /* Pods-FlexibleGauge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleGauge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A266A790168ED410DE4F1E421F6B983 /* FlexibleGauge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleGauge.xcconfig; sourceTree = "<group>"; };
 		5C766FB477446DE7756E69C3A0E3C07F /* Pods-FlexibleGauge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleGauge_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5E4AA63677BAADA3B2C3391A9BBBBF94 /* FlexibleGauge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleGauge-prefix.pch"; sourceTree = "<group>"; };
-		5E9A152A0B9D30FFA59FCDB7F16DFF90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F5CE2C00476E566B9A2F2F36702A8F4 /* Pods-FlexibleGauge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleGauge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5FD2112C2D5F8CEF13A588B087DA6AFF /* Pods-FlexibleGauge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlexibleGauge_Tests.modulemap"; sourceTree = "<group>"; };
-		605C04DAA9E5A3821251ABE418B14032 /* FlexibleGauge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleGauge-umbrella.h"; sourceTree = "<group>"; };
-		64BC0210F930D18662125F33648A8458 /* FlexibleGauge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexibleGauge-dummy.m"; sourceTree = "<group>"; };
+		5FD2112C2D5F8CEF13A588B087DA6AFF /* Pods-FlexibleGauge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FlexibleGauge_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D3CFABD6E8A47DF132732E0A64A9478 /* Pods-FlexibleGauge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexibleGauge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6E8B51C2CEF31A15B958885CD6A6FCA0 /* Pods-FlexibleGauge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlexibleGauge_Example.modulemap"; sourceTree = "<group>"; };
+		6E8B51C2CEF31A15B958885CD6A6FCA0 /* Pods-FlexibleGauge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FlexibleGauge_Example.modulemap"; sourceTree = "<group>"; };
 		7B5EDD290783FD51B890D60C73F06712 /* Pods-FlexibleGauge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleGauge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7CD13AD1CD6E70BD7FE2D7CA6E960634 /* Pods-FlexibleGauge_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleGauge_Example-resources.sh"; sourceTree = "<group>"; };
-		7DF575501FC6C0C600606F80 /* FlexibleGauge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlexibleGauge.h; path = FlexibleGauge/Classes/FlexibleGauge.h; sourceTree = "<group>"; };
-		7DF575511FC6C0C600606F80 /* FlexibleGauge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlexibleGauge.m; path = FlexibleGauge/Classes/FlexibleGauge.m; sourceTree = "<group>"; };
 		84557A02E6E365F785CE08E871EB493D /* Pods-FlexibleGauge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlexibleGauge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A4B60A4C9B30C29D0113F9724945B96 /* Pods-FlexibleGauge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleGauge_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9A60877BBD21F4841BDFF0B8F9F244EF /* FlexibleGauge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FlexibleGauge.modulemap; sourceTree = "<group>"; };
-		A7027E3D54D6EE6C01D11BB6D211192B /* FlexibleGauge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexibleGauge.xcconfig; sourceTree = "<group>"; };
-		BB5CA3975E25DFBEC8FE221A88DB6623 /* Pods_FlexibleGauge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleGauge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F30056F3C8393B2172EC00E41D5E0A1 /* FlexibleGauge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleGauge-prefix.pch"; sourceTree = "<group>"; };
+		AEB0FB3DDA8A2DABBCB7FACE7D8B5A6B /* FlexibleGauge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexibleGauge.h; path = FlexibleGauge/Classes/FlexibleGauge.h; sourceTree = "<group>"; };
+		B7BF6B1F2D75DFFBAE08A10C2E04E672 /* FlexibleGauge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexibleGauge-umbrella.h"; sourceTree = "<group>"; };
+		BB5CA3975E25DFBEC8FE221A88DB6623 /* Pods_FlexibleGauge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlexibleGauge_Tests.framework; path = "Pods-FlexibleGauge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCA267C95B3B4661D1F7725CC6F3DDE /* Pods-FlexibleGauge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexibleGauge_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE64F4BC6A123602D8A7678A7ED83D5A /* Pods-FlexibleGauge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleGauge_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C22031487FDED2EFC8A25B0FBC1B5FD9 /* Pods-FlexibleGauge_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlexibleGauge_Tests-resources.sh"; sourceTree = "<group>"; };
+		C80DF34145BFFEE59F2ECB7A50BFD211 /* FlexibleGauge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexibleGauge.m; path = FlexibleGauge/Classes/FlexibleGauge.m; sourceTree = "<group>"; };
 		D1DB9C72D0D883A17373491D3DAF09D1 /* Pods-FlexibleGauge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlexibleGauge_Example-umbrella.h"; sourceTree = "<group>"; };
-		E21028FF7A34868E7A07F78168539CAF /* Pods_FlexibleGauge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexibleGauge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9B9CF07B938D626A16C5C41985B097 /* FlexibleGauge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FlexibleGauge.modulemap; sourceTree = "<group>"; };
+		E21028FF7A34868E7A07F78168539CAF /* Pods_FlexibleGauge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FlexibleGauge_Example.framework; path = "Pods-FlexibleGauge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D50999EE4F8A45421C2CE4DFD7EE46 /* Pods-FlexibleGauge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexibleGauge_Tests-dummy.m"; sourceTree = "<group>"; };
 		EABFD2FBE2D95B22BB115B2C1AB55B3C /* Pods-FlexibleGauge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexibleGauge_Example-dummy.m"; sourceTree = "<group>"; };
-		ED202CE0F8F1E56FB67A4B1B9FE61D74 /* FlexibleGauge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexibleGauge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED202CE0F8F1E56FB67A4B1B9FE61D74 /* FlexibleGauge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexibleGauge.framework; path = FlexibleGauge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30BD0C11253C31FE0CF5AF27EE40D7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4078615941E49E24E30212D53D4F067 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,11 +75,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8275E962527BB21A9487981BE828F02C /* Frameworks */ = {
+		72DE6942DF50DE165D45D9A2489E6FF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99EB2F40CD98A1B0ED3F9DE7C9BF9686 /* Foundation.framework in Frameworks */,
+				3E8CDAAEEE7F6AE2058F7FBF0C9B8AA0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,37 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		112C4E17E63C23551C4EF55981C4E3C5 /* Development Pods */ = {
+		1043B35742042B7552CDDC2ED868F391 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				26EBD344D3381B1DD02B6624D29886CE /* FlexibleGauge */,
+				19B06BA6B80255EEA59718E647D27279 /* FlexibleGauge */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		26EBD344D3381B1DD02B6624D29886CE /* FlexibleGauge */ = {
+		19B06BA6B80255EEA59718E647D27279 /* FlexibleGauge */ = {
 			isa = PBXGroup;
 			children = (
-				316986BC05DC7F4069A2786B96BAB4BF /* Support Files */,
-				7DF575501FC6C0C600606F80 /* FlexibleGauge.h */,
-				7DF575511FC6C0C600606F80 /* FlexibleGauge.m */,
+				AEB0FB3DDA8A2DABBCB7FACE7D8B5A6B /* FlexibleGauge.h */,
+				C80DF34145BFFEE59F2ECB7A50BFD211 /* FlexibleGauge.m */,
+				B17F3BBB41116B0B574E7A58BBB5A914 /* Support Files */,
 			);
 			name = FlexibleGauge;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		316986BC05DC7F4069A2786B96BAB4BF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A60877BBD21F4841BDFF0B8F9F244EF /* FlexibleGauge.modulemap */,
-				A7027E3D54D6EE6C01D11BB6D211192B /* FlexibleGauge.xcconfig */,
-				64BC0210F930D18662125F33648A8458 /* FlexibleGauge-dummy.m */,
-				5E4AA63677BAADA3B2C3391A9BBBBF94 /* FlexibleGauge-prefix.pch */,
-				605C04DAA9E5A3821251ABE418B14032 /* FlexibleGauge-umbrella.h */,
-				5E9A152A0B9D30FFA59FCDB7F16DFF90 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FlexibleGauge";
 			sourceTree = "<group>";
 		};
 		3EF7A36143CE4F219A43FCDCB08A1B38 /* Targets Support Files */ = {
@@ -158,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				112C4E17E63C23551C4EF55981C4E3C5 /* Development Pods */,
+				1043B35742042B7552CDDC2ED868F391 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				908248E7B5D07FE8A2FA299E10140B1F /* Products */,
 				3EF7A36143CE4F219A43FCDCB08A1B38 /* Targets Support Files */,
@@ -173,6 +159,20 @@
 				BB5CA3975E25DFBEC8FE221A88DB6623 /* Pods_FlexibleGauge_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B17F3BBB41116B0B574E7A58BBB5A914 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B9CF07B938D626A16C5C41985B097 /* FlexibleGauge.modulemap */,
+				5A266A790168ED410DE4F1E421F6B983 /* FlexibleGauge.xcconfig */,
+				4561CF1D7BBCA1C9E1C72509F39EB59A /* FlexibleGauge-dummy.m */,
+				9F30056F3C8393B2172EC00E41D5E0A1 /* FlexibleGauge-prefix.pch */,
+				B7BF6B1F2D75DFFBAE08A10C2E04E672 /* FlexibleGauge-umbrella.h */,
+				5168AAC611B93595BA399DD73E823DF4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FlexibleGauge";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -220,12 +220,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC23CD264DFDA489F394DD1827FC5C53 /* Headers */ = {
+		98545E4D1021B8F48ED06C27ABDE8F78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2314E12F7C52ED247E27C8694A80B7C /* FlexibleGauge-umbrella.h in Headers */,
-				7DF575521FC6C0C600606F80 /* FlexibleGauge.h in Headers */,
+				460C6B06FB80A16903846342DFC99679 /* FlexibleGauge-umbrella.h in Headers */,
+				7FF12A07B64B27A78073C24D45F7B524 /* FlexibleGauge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,23 +240,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14CF9F0294AFAD25D82EFB4EF0136EA7 /* FlexibleGauge */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 715424245B625E710EEA48C8231955E3 /* Build configuration list for PBXNativeTarget "FlexibleGauge" */;
-			buildPhases = (
-				49150D8997406D2975F6B659D80F4AD8 /* Sources */,
-				8275E962527BB21A9487981BE828F02C /* Frameworks */,
-				CC23CD264DFDA489F394DD1827FC5C53 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FlexibleGauge;
-			productName = FlexibleGauge;
-			productReference = ED202CE0F8F1E56FB67A4B1B9FE61D74 /* FlexibleGauge.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		14EF25178B0A73D5BBCA884530C5C3D7 /* Pods-FlexibleGauge_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0FE774AC5A0E3B25295190AA314CA37 /* Build configuration list for PBXNativeTarget "Pods-FlexibleGauge_Tests" */;
@@ -272,6 +255,23 @@
 			name = "Pods-FlexibleGauge_Tests";
 			productName = "Pods-FlexibleGauge_Tests";
 			productReference = BB5CA3975E25DFBEC8FE221A88DB6623 /* Pods_FlexibleGauge_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90C96E884A28809F5BED8EDAAE624CFD /* FlexibleGauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB681DBFA1BB2496DEF7F68BE188D8DC /* Build configuration list for PBXNativeTarget "FlexibleGauge" */;
+			buildPhases = (
+				1DE1A865930404EFC86888925153E5AF /* Sources */,
+				72DE6942DF50DE165D45D9A2489E6FF6 /* Frameworks */,
+				98545E4D1021B8F48ED06C27ABDE8F78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexibleGauge;
+			productName = FlexibleGauge;
+			productReference = ED202CE0F8F1E56FB67A4B1B9FE61D74 /* FlexibleGauge.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE5EAA74CE0CD4043E53AC768EA71973 /* Pods-FlexibleGauge_Example */ = {
@@ -313,7 +313,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14CF9F0294AFAD25D82EFB4EF0136EA7 /* FlexibleGauge */,
+				90C96E884A28809F5BED8EDAAE624CFD /* FlexibleGauge */,
 				CE5EAA74CE0CD4043E53AC768EA71973 /* Pods-FlexibleGauge_Example */,
 				14EF25178B0A73D5BBCA884530C5C3D7 /* Pods-FlexibleGauge_Tests */,
 			);
@@ -321,12 +321,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49150D8997406D2975F6B659D80F4AD8 /* Sources */ = {
+		1DE1A865930404EFC86888925153E5AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF575531FC6C0C600606F80 /* FlexibleGauge.m in Sources */,
-				EFABAE056064E85BA85CED560A5A8548 /* FlexibleGauge-dummy.m in Sources */,
+				51CB570D71914B092081F7020B98B192 /* FlexibleGauge-dummy.m in Sources */,
+				06FE8C15BA2884BE464408BB0ACC7788 /* FlexibleGauge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,12 +352,42 @@
 		A11E8AF2DFFCA42A19BC90C0DBACF56F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlexibleGauge;
-			target = 14CF9F0294AFAD25D82EFB4EF0136EA7 /* FlexibleGauge */;
+			target = 90C96E884A28809F5BED8EDAAE624CFD /* FlexibleGauge */;
 			targetProxy = 8D06C0A5F7142E59E2B3B4F0A1509F85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0E0077DE6087586B043F3275113AAF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A266A790168ED410DE4F1E421F6B983 /* FlexibleGauge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexibleGauge/FlexibleGauge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexibleGauge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlexibleGauge/FlexibleGauge.modulemap";
+				PRODUCT_NAME = FlexibleGauge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		258A630A7A237ADD950BAB73F6C6FE2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 576ECE20F5762725B06C2151668FFC77 /* Pods-FlexibleGauge_Tests.debug.xcconfig */;
@@ -537,6 +567,35 @@
 			};
 			name = Debug;
 		};
+		8ED258613AA99FB2E70BE80A482A27C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A266A790168ED410DE4F1E421F6B983 /* FlexibleGauge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexibleGauge/FlexibleGauge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexibleGauge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FlexibleGauge/FlexibleGauge.modulemap";
+				PRODUCT_NAME = FlexibleGauge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		BA59BC7BEF6A5B5087E965E415AAF489 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A4B60A4C9B30C29D0113F9724945B96 /* Pods-FlexibleGauge_Example.release.xcconfig */;
@@ -569,35 +628,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BE27E968336FF3148A4757C3C1BCB808 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7027E3D54D6EE6C01D11BB6D211192B /* FlexibleGauge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FlexibleGauge/FlexibleGauge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlexibleGauge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FlexibleGauge/FlexibleGauge.modulemap";
-				PRODUCT_NAME = FlexibleGauge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D09195B32E8FFE8AAEC144C7661F9372 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -632,36 +662,6 @@
 			};
 			name = Release;
 		};
-		DA6EEC27AB72A4E4A7ECB11036BC9051 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7027E3D54D6EE6C01D11BB6D211192B /* FlexibleGauge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FlexibleGauge/FlexibleGauge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlexibleGauge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FlexibleGauge/FlexibleGauge.modulemap";
-				PRODUCT_NAME = FlexibleGauge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -674,11 +674,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		715424245B625E710EEA48C8231955E3 /* Build configuration list for PBXNativeTarget "FlexibleGauge" */ = {
+		AB681DBFA1BB2496DEF7F68BE188D8DC /* Build configuration list for PBXNativeTarget "FlexibleGauge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE27E968336FF3148A4757C3C1BCB808 /* Debug */,
-				DA6EEC27AB72A4E4A7ECB11036BC9051 /* Release */,
+				8ED258613AA99FB2E70BE80A482A27C9 /* Debug */,
+				0E0077DE6087586B043F3275113AAF1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

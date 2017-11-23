@@ -7,17 +7,33 @@
 //
 
 #import "FlexibleGaugeViewController.h"
+#import "FlexibleGauge.h"
 
 @interface FlexibleGaugeViewController ()
-
+    @property (weak, nonatomic) IBOutlet FlexibleGauge *orangeGauge;
+    @property (weak, nonatomic) IBOutlet FlexibleGauge *greenGauge;
+    @property (weak, nonatomic) IBOutlet FlexibleGauge *blueGauge;
+    
+    @property (weak, nonatomic) IBOutlet FlexibleGauge *smallPinkGauge;
+    @property (weak, nonatomic) IBOutlet FlexibleGauge *smallBlueGauge;
+    
 @end
 
 @implementation FlexibleGaugeViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+}
+    
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self.orangeGauge animateGauge];
+    [self.greenGauge animateGauge];
+    [self.blueGauge animateGauge];
+
+    [self.smallPinkGauge animateGauge];
+    [self.smallBlueGauge animateGauge];
 }
 
 - (void)didReceiveMemoryWarning

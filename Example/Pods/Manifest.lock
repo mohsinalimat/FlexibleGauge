@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FlexibleGauge: fbab7c9c99e1011d710572dce84f03775fe6c09d
+  FlexibleGauge: 37be098ee29707ff00ac1859fc0654dd81a015f8
 
 PODFILE CHECKSUM: 392a5eac9f1ee16c4d5528dcd4ad60be03ec1b06
 

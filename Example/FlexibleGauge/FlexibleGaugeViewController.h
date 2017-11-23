@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+@import FlexibleGauge;
 
 @interface FlexibleGaugeViewController : UIViewController
 
