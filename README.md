@@ -14,6 +14,10 @@ With this animated gauge you will be able to create flexible gauges with or with
 
 9.3+
 
+# Installation
+
+pod 'FlexibleGauge'
+
 # Adding To Project
 
 You can add MultipleGaugeAnimated as a cocoapod with 'pod MultipleGaugeAnimated' or you can add it as a resource
