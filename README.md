@@ -35,29 +35,27 @@ You can add MultipleGaugeAnimated as a cocoapod with 'pod MultipleGaugeAnimated'
 'New value' vs 'Value' --> If you are willing to see an animation, then you should animate the gauge from Value to New value, lets say  your starting value of the gauge is 50, then you should assign 'Value' as 0 to start animation from 0, and assign 'New value' as 50 so that it will animate to 50 from 0.
 You may also assign the values of the gauge via the code, you just need to connect it to the view as an outlet and call:
 
--(void)refreshGraph:(CGFloat)newValue withAnimation:(Boolean)withAnimation;
+    -(void)refreshGraph:(CGFloat)newValue withAnimation:(Boolean)withAnimation;
 
-//call the method above from the view class that your outlet is connected as:
-[self.gauge refreshGraph:50 withAnimation:YES];
+    //call the method above from the view class that your outlet is connected as:
+    [self.gauge refreshGraph:50 withAnimation:YES];
 
 ## You may add via code
 
 ### Example:
 
-@property (weak, nonatomic) IBOutlet UIView *gaugeView;
-@property(strong, nonatomic) Gauge *gauge;
+    @property (weak, nonatomic) IBOutlet UIView *gaugeView;
+    @property(strong, nonatomic) Gauge *gauge;
 
-self.gauge = [[Gauge alloc] initWithFrame:self.gaugeView.bounds];
-[self.gauge setDefaultProperties];
-[self.gauge setOuterTextProperties:@"outer 2" textColor:[UIColor darkGrayColor] font:[UIFont fontWithName:@"HelveticaNeue" size:11]];
-[self.gauge setOuterImageProperties:[UIImage imageNamed:@"business"] imageSize:CGSizeMake(15, 15)];
-self.gauge setNeedsDisplay];
-[self.gaugeView addSubview:self.gauge];
+    self.gauge = [[Gauge alloc] initWithFrame:self.gaugeView.bounds];
+    [self.gauge setDefaultProperties];
+    [self.gauge setOuterTextProperties:@"outer 2" textColor:[UIColor darkGrayColor] font:[UIFont fontWithName:@"HelveticaNeue" size:11]];
+    [self.gauge setOuterImageProperties:[UIImage imageNamed:@"business"] imageSize:CGSizeMake(15, 15)];
+    [self.gauge setNeedsDisplay];
+    [self.gaugeView addSubview:self.gauge];
 
-//To animate
-[self.gauge animateGauge];
+    //To animate
+    [self.gauge animateGauge];
 
-
-### Check example project for different type of gauges.
 
 
