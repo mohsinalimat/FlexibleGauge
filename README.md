@@ -54,7 +54,8 @@ You may also assign the values of the gauge via the code, you just need to conne
     [self.gauge setNeedsDisplay];
     [self.gaugeView addSubview:self.gauge];
 
-    //To animate
+    //To animate the value use this method
+    //You need to animate it when the view is already visible for instance in viewDidAppear method
     [self.gauge animateGauge];
 
 
